@@ -1,0 +1,230 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 10vh;
+}
+header{
+  height: 500px;
+  background-color: #3400ff;
+}
+nav{
+  float: right;
+  margin-right: 35px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.nav-item{
+  margin-right: 20px;
+  color: #ffffff;
+}
+.nav-item-active{
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #5a31fc;
+  margin-right: 15px;
+  font-weight: 400;
+}
+.logo{
+  margin: 15px 20px;
+}
+.header-text{
+  font-size: 28px;
+  color: #ffffff;
+  margin-top: 70px;
+  margin-left: 60px;
+  float: left;
+}
+.header-text>p{
+  font-size: 20px;
+}
+.header-image{
+  float: right;
+}
+.companies{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.company-items{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  margin-left: 60px;
+}
+.api-heading{
+  font-weight: 800;
+  margin-left: 118px;
+  margin-top: 65px;
+}
+.cards{
+  margin-left: 118px;
+  margin-top: 25px;
+  display: flex;
+}
+.card{
+  padding: 12px;
+  width: 20%;
+  height: 250px;
+  background-color: #ffffff;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.card-active{
+  width: 20%;
+  height: 250px;
+  background-color: transparent;
+  margin-right: 30px;
+  box-shadow:0px 5px 15px #000000;
+  padding: 12px;
+  border-radius: 10px;
+}
+.card-logo{
+  margin-top: 35px;
+}
+.card-head{
+  color: #000000;
+}
+.blog-heading{
+  margin-left: 118px;
+  margin-top: 45px;
+}
+.blog-cards{
+  margin-left: 118px;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+}
+.blog-card{
+  height: 287px;
+  width:50%;
+  display: flex;
+}
+.blog-image{
+  width: 40%;
+}
+.blog-content{
+  width: 60%;
+  background-color: #ffffff;
+  padding: 45px 35px;
+}
+.blog-content>small{
+  font-size: 13px;
+}
+.blog-content>h3{
+  font-weight: 700;
+}
+.blog-bottom{
+  align-self:flex-end;
+  z-index: 1;
+  position: relative;
+  top: 35px;
+  right: 245px;
+}
+.blog-author{
+  font-size: 10px;
+  align-self: flex-end;
+  position: relative;
+  right: 240px;
+  font-size: 10px;
+}
+
+.faq-section{
+  display: flex;
+  margin-top: 85px;
+  justify-content: space-between;
+  background-color: #e9edff;
+}
+.faq-content{
+  margin-left: 118px;
+  margin-top: 45px;
+
+}
+.faq-content>h2{
+  font-size: 28px;
+  font-weight: 800;
+}
+.faq-image>img{
+  float: right;
+}
+.faq-content>button{
+  margin-top: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #5a31fc;
+  color: #ffffff;
+}
+.download-section{
+  display: flex;
+  margin-left: 118px;
+  margin-top: 105px;
+}
+.download-content{
+  width: 50%;
+}
+.download-email{
+width: 50%;
+}
+.download-email>form>input{
+  z-index: -1;
+  width: 350px;
+  border-radius: 100px;
+  border: none;
+  height: 40px;
+  background-color: #e9edff;
+  padding: 0px 25px;
+}
+.download-email>form>button{
+  height: 40px;
+  position: relative;
+  right: 80px;
+  padding: 0px 25px;
+  border: none;
+  background-color: #5a31fc;
+  color: #ffffff;
+  border-radius: 100px;
+}
+.footer-section{
+  background-color: #4618fe;
+  height: 180px;
+  display: flex;
+  margin-top: 85px;
+  justify-content: space-between;
+}
+.footer-left{
+  margin-top: 65px;
+  margin-left:118px;
+}
+.list{
+  display: flex;
+  list-style-type: none;
+  font-size: 12px;
+  margin: 15px 0px;
+
+}
+.list-items{
+margin-right: 20px;
+color: white;
+}
+.footer-right{
+  margin-top: 65px;
+  margin-right: 118px;
+}
+.logos-list{
+  display: flex;
+  list-style-type: none;
+  font-size: 12px;
+  margin: 15px 0px;
+}
+.footer-logos{
+  margin-right: 10px;
+}
